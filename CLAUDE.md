@@ -32,3 +32,31 @@ npm run dev          # запуск dev-сервера
 - Структура: исходный код в `src/`, тесты рядом с файлами (`*.test.ts`)
 - Коммуникация с пользователем на русском языке, если пользователь пишет по-русски
 - Секреты и ключи исключены через `.claudeignore` — никогда не коммитить credentials
+
+## Multi-Agent Patterns for This Project
+
+### Pattern: Parallel Feature Development
+
+**Use when**: Implementing independent features simultaneously
+
+**Setup**:
+```bash
+git worktree add ../education-feature-a feature-a
+git worktree add ../education-feature-b feature-b
+```
+
+**Workflow**:
+1. Create branches and worktrees
+2. Launch Claude in each worktree with independent task
+3. Review completed work
+4. Merge branches
+5. Clean up worktrees
+
+### Pattern: Implementation + Review
+
+**Use when**: Want quality assurance on generated code
+
+**Workflow**:
+1. First agent implements feature
+2. Second agent reviews and suggests improvements
+3. First agent applies feedback
