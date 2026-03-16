@@ -60,3 +60,19 @@ git worktree add ../education-feature-b feature-b
 1. First agent implements feature
 2. Second agent reviews and suggests improvements
 3. First agent applies feedback
+
+## Automated Workflows
+
+### CI/CD Integration
+
+**PR Review** (`.github/workflows/claude-review.yml`)
+- Triggered: On PR open/sync
+- Actions: Reviews code, posts comment
+- Checks: Quality, bugs, tests, security
+
+### Utility Scripts
+
+| Script | Purpose | Usage |
+|--------|---------|-------|
+| `scripts/claude-lint-fix.sh` | Fix lint errors | `./scripts/claude-lint-fix.sh` |
+| `scripts/claude-review.sh` | Review code | `./scripts/claude-review.sh [path]` |
