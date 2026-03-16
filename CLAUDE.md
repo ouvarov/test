@@ -28,9 +28,7 @@ npm run dev          # запуск dev-сервера
 
 ## Conventions
 
-- Именование файлов: kebab-case (`my-component.ts`, `user-service.js`)
-- Именование переменных и функций: camelCase
-- Именование классов и типов: PascalCase
+- **Naming conventions**: см. skill `coding-standards` — единый источник правил именования для TS/JS, CSS/SCSS, React
 - Структура: исходный код в `src/`, тесты рядом с файлами (`*.test.ts`)
 - Коммуникация с пользователем на русском языке, если пользователь пишет по-русски
 - Секреты и ключи исключены через `.claudeignore` — никогда не коммитить credentials
