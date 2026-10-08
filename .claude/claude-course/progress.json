@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.1",
+  "student": {
+    "name": "Alexandr",
+    "role": "software_engineer",
+    "repository": "/Users/uvarovalexandr/myProject/education",
+    "started_at": "2026-03-12T00:00:00Z",
+    "mcp_project_name": "/Users/uvarovalexandr/myProject/education"
+  },
+  "modules": {
+    "1-foundations-and-commands": {
+      "status": "completed",
+      "started_at": "2026-03-12T00:00:00Z",
+      "completed_at": "2026-03-13T09:45:00Z",
+      "sessions": [
+        {
+          "session_id": "session-20260312-001",
+          "started_at": "2026-03-12T00:00:00Z",
+          "ended_at": null,
+          "tasks_completed": []
+        },
+        {
+          "session_id": "ced58b90-3c04-4f5d-87a7-3958937698b3",
+          "started_at": "2026-03-12T15:37:26.789Z",
+          "ended_at": "2026-03-12T15:45:20.000Z",
+          "tasks_completed": []
+        },
+        {
+          "session_id": "22b00b6c-647e-4ffc-9467-c238b2d6c98e",
+          "started_at": "2026-03-12T15:45:20.135Z",
+          "ended_at": "2026-03-12T15:50:19.000Z",
+          "tasks_completed": []
+        },
+        {
+          "session_id": "be6631ec-d87a-4568-a3dd-721ba380e397",
+          "started_at": "2026-03-12T15:50:19.499Z",
+          "ended_at": null,
+          "tasks_completed": []
+        }
+      ],
+      "tasks": {
+        "create_claude_md": true,
+        "claude_md_quality": true,
+        "add_project_overview": true,
+        "add_tech_stack": true,
+        "add_conventions": true,
+        "create_claudeignore": true,
+        "test_claude_understanding": true,
+        "explore_slash_commands": true,
+        "test_session_commands": true,
+        "use_plan_mode": true,
+        "create_custom_command": true,
+        "commit_work": true
+      },
+      "submission": {
+        "submitted_at": "2026-03-13T09:53:00Z",
+        "file_path": ".claude/claude-course/submissions/seminar1-alexandr-2026-03-13.zip",
+        "file_size_bytes": 181248
+      }
+    },
+    "2-skills": {
+      "status": "completed",
+      "started_at": "2026-03-13T16:14:01.098Z",
+      "completed_at": "2026-03-16T10:15:00.000Z",
+      "sessions": [
+        {
+          "session_id": "be475044-f092-4857-8a9e-5d947260551b",
+          "started_at": "2026-03-13T16:14:01.098Z",
+          "ended_at": "2026-03-16T09:48:32.000Z",
+          "tasks_completed": []
+        },
+        {
+          "session_id": "2851920a-fd61-4bca-ae27-a45723657fbd",
+          "started_at": "2026-03-16T09:48:32.390Z",
+          "ended_at": null,
+          "tasks_completed": []
+        }
+      ],
+      "tasks": {
+        "create_skills_directory": true,
+        "understand_codify_workflow": true,
+        "write_reference_skill": true,
+        "write_action_skill": true,
+        "test_skills": true,
+        "commit_skills": true
+      },
+      "submission": {
+        "submitted_at": "2026-03-16T10:20:00Z",
+        "file_path": ".claude/claude-course/submissions/seminar2-alexandr-2026-03-16.zip",
+        "file_size_bytes": 337920
+      }
+    },
+    "3-extensions": {
+      "status": "completed",
+      "started_at": "2026-03-16T10:25:00.000Z",
+      "completed_at": "2026-03-16T11:35:00.000Z",
+      "sessions": [
+        {
+          "session_id": "2851920a-fd61-4bca-ae27-a45723657fbd",
+          "started_at": "2026-03-16T10:25:00.000Z",
+          "ended_at": null,
+          "tasks_completed": []
+        },
+        {
+          "session_id": "0da0e975-7603-4c3e-8b64-f2036842bacc",
+          "started_at": "2026-03-16T11:18:40.678Z",
+          "ended_at": "2026-03-16T11:35:00.000Z",
+          "tasks_completed": []
+        }
+      ],
+      "tasks": {
+        "create_hook": true,
+        "test_hook": true,
+        "configure_mcp": true,
+        "test_mcp": true,
+        "create_advanced_command": true,
+        "commit_extensions": true
+      },
+      "submission": {
+        "submitted_at": "2026-03-16T11:40:00Z",
+        "file_path": ".claude/claude-course/submissions/seminar3-alexandr-2026-03-16.zip",
+        "file_size_bytes": 310272
+      }
+    },
+    "4-agents": {
+      "status": "completed",
+      "started_at": "2026-03-16T11:56:00.000Z",
+      "completed_at": "2026-03-16T12:30:00.000Z",
+      "sessions": [
+        {
+          "session_id": "0da0e975-7603-4c3e-8b64-f2036842bacc",
+          "started_at": "2026-03-16T11:56:00.000Z",
+          "ended_at": "2026-03-16T12:30:00.000Z",
+          "tasks_completed": []
+        }
+      ],
+      "tasks": {
+        "use_subagent": true,
+        "create_worktrees": true,
+        "run_parallel_agents": true,
+        "merge_results": true,
+        "document_pattern": true,
+        "commit_updates": true
+      },
+      "submission": {
+        "submitted_at": "2026-03-16T12:35:00Z",
+        "file_path": ".claude/claude-course/submissions/seminar4-alexandr-2026-03-16.zip",
+        "file_size_bytes": 115712
+      }
+    },
+    "5-workflows": {
+      "status": "completed",
+      "started_at": "2026-03-16T12:40:00.000Z",
+      "completed_at": "2026-03-16T15:10:00.000Z",
+      "sessions": [
+        {
+          "session_id": "session-20260316-m5",
+          "started_at": "2026-03-16T12:40:00.000Z",
+          "ended_at": "2026-03-16T15:10:00.000Z",
+          "tasks_completed": []
+        }
+      ],
+      "tasks": {
+        "install_github_app": true,
+        "create_github_action": true,
+        "test_headless": true,
+        "create_automation_script": true,
+        "test_workflow": true,
+        "document_workflows": true,
+        "final_commit": true
+      },
+      "submission": {
+        "submitted_at": "2026-03-16T15:15:00Z",
+        "file_path": ".claude/claude-course/submissions/seminar5-alexandr-2026-03-16.zip",
+        "file_size_bytes": 93184
+      }
+    }
+  },
+  "current_module": "5-workflows",
+  "current_task": null,
+  "current_session_id": "session-20260316-m5",
+  "total_time_spent_minutes": 0,
+  "exports": [],
+  "graduation": {
+    "completed": true,
+    "completed_at": "2026-03-16T15:10:00.000Z",
+    "certificate_generated": false
+  }
+}

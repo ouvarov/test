@@ -33,7 +33,7 @@ npm run dev          # запуск dev-сервера
 - Коммуникация с пользователем на русском языке, если пользователь пишет по-русски
 - Секреты и ключи исключены через `.claudeignore` — никогда не коммитить credentials
 
-## Multi-Agent Patterns for This Project
+##  Patterns for This Project
 
 ### Pattern: Parallel Feature Development
 

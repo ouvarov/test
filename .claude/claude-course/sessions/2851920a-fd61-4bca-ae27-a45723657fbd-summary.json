@@ -1,0 +1,28 @@
+{
+  "session_id": "2851920a-fd61-4bca-ae27-a45723657fbd",
+  "agent_id": null,
+  "project": "education",
+  "date": "2026-03-16",
+  "duration_minutes": 79,
+  "message_count": 346,
+  "user_messages": 35,
+  "assistant_messages": 182,
+  "tokens": {
+    "total_input": 268,
+    "total_output": 16168,
+    "cache_read": 12839735,
+    "cache_creation": 192887
+  },
+  "tool_calls": {
+    "total": 114,
+    "unique_tools": 14,
+    "success": 110,
+    "failed": 4
+  },
+  "sidechains": {
+    "count": 0,
+    "agent_types": []
+  },
+  "has_errors": false,
+  "error_count": 0
+}
